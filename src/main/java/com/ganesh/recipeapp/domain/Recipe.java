@@ -3,6 +3,7 @@ package com.ganesh.recipeapp.domain;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -49,5 +50,4 @@ public class Recipe {
         this.ingredients.add(ingredient);
         return this;
     }
-
 }
