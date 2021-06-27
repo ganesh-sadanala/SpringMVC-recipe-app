@@ -31,7 +31,7 @@ class RecipeServiceImplTest {
     void getRecipes() {
 
         Recipe recipe = new Recipe();
-        HashSet recipesData = new HashSet();
+        Set<Recipe> recipesData = new HashSet<>();
         recipesData.add(recipe);
 
         when(recipeRepository.findAll()).thenReturn(recipesData);
